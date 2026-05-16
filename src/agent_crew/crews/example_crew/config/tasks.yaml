@@ -1,0 +1,13 @@
+research_task:
+  description: >
+    Research the following topic: {topic}
+    Provide a comprehensive analysis with key findings.
+  expected_output: "A detailed research report with key findings and insights"
+  agent: researcher
+
+writing_task:
+  description: >
+    Based on the research findings, write a well-structured article
+    about: {topic}
+  expected_output: "A polished article ready for publication"
+  agent: writer
